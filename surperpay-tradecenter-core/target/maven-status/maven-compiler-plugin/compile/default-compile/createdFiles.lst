@@ -1,0 +1,5 @@
+com\tradecenter\facade\consumer\service\impl\PayGatewayBizImpl.class
+com\tradecenter\facade\provider\MainProvider.class
+com\tradecenter\facade\consumer\MainConsumer.class
+com\tradecenter\facade\consumer\service\PayGatewayBiz.class
+com\tradecenter\facade\service\impl\PayTradeFacadeImpl.class
