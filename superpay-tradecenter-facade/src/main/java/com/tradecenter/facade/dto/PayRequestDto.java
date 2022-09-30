@@ -3,7 +3,7 @@ package com.tradecenter.facade.dto;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
-
+//96
 public class PayRequestDto implements Serializable {
 
     //商户订单号

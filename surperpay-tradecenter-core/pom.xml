@@ -26,8 +26,12 @@
             <artifactId>dubbo-dependencies-zookeeper</artifactId>
             <type>pom</type>
         </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+        </dependency>
 
-<!--        <dependency>-->
+        <!--        <dependency>-->
 <!--            <groupId>junit</groupId>-->
 <!--            <artifactId>junit</artifactId>-->
 <!--            <version>${junit.version}</version>-->
