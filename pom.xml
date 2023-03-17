@@ -16,6 +16,7 @@
         <spring.version>5.1.15.RELEASE</spring.version>
         <rocketmq.version>4.9.4</rocketmq.version>
         <junit.version>4.12</junit.version>
+        <netty.version>4.1.56.Final</netty.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
     </properties>
 
@@ -46,10 +47,16 @@
                 <artifactId>rocketmq-client</artifactId>
                 <version>${rocketmq.version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <modules>
         <module>surperpay-tradecenter-core</module>
         <module>superpay-tradecenter-facade</module>
+        <module>netty-pro</module>
     </modules>
 </project>
